@@ -1,0 +1,57 @@
+/* Green + Beige Nature-Themed Landing Page */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke; /* beige background */
+}
+
+header {
+    background-color: #2e7d32; /* dark green */
+    color: whitesmoke;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #d7ccc8; /* light brown/beige */
+    padding: 10px 0;
+}
+
+nav a {
+    color: #2e7d32; /* dark green */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.column {
+    background-color: #a5d6a7; /* light green */
+    padding: 15px;
+    width: 25%;
+    box-shadow: 0 0 10px #8d6e63; /* soft brown shadow */
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.column:hover {
+    transform: scale(1.05); /* simple hover effect */
+}
+
+footer {
+    background-color: #856158; /* dark brown */
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
